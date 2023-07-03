@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: manga;
+    src: url(fonte/mangati.ttf);
+}
+h5
+{
+    font-family: manga;
+}
+h1
+{
+    font-family: manga;
+}
+div{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.388);
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+divj
+{
+    padding: 20px;
+}
+html
+{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width : 767.5px) {
+    div
+    {
+        left:15%
+
+    }
+}
+@media screen and (min-width : 800px) {
+    #imagem
+    {
+        width: 90%;
+    }
+.compra
+{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+}
+.compra
+{
+   border-radius: 0%;
+   box-shadow: 0px 0px 0px;
+}
+.card2
+{
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px;
+    width: 90%;
+ }
+ .card3
+ {
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px;
+
+ }
+ .card
+{
+    padding: 16px;
+    border: none;
+}
+
+.card-header
+{
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px;
+}
+html
+{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#imagem
+{
+  width: 75%;
+}
+.row
+{
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px;
+}
+a
+{
+  color: black;
+}
